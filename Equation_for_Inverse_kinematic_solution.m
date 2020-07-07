@@ -33,7 +33,7 @@ Tleft_final_base2end = T_l{1,1};
 
 
 for j = 2:axis
-    Tright_base2end = T_r{j,1}*Tright_final_base2end;
+    Tright_final_base2end = T_r{j,1}*Tright_final_base2end;
     Tleft_final_base2end = T_l{j,1}*Tleft_final_base2end;
 end
 
